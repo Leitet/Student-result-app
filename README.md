@@ -1,5 +1,5 @@
-riamall2013
-===========
+Studentresultatapplikation
+==========================
 
 Detta är ett mallrepositorium för projektet i [RIA-kursen 2013](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/). Forka detta och använd som grund i din applikation!
 
