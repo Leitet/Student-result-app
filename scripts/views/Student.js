@@ -2,7 +2,7 @@
     StudentView
  */
  
-define(["text!templates/student.html"], function(studentTemplate) {
+define(['text!templates/student.html', 'underscore', 'backbone'], function(studentTemplate, _, Backbone) {
  
         return Backbone.View.extend({
     
