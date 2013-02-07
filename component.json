@@ -7,6 +7,7 @@
         "backbone-amd": null,
         "underscore-amd": null,
         "requirejs": null,
+        "text": null,
         "backbone.localStorage": null,
         "bootstrap": null,
         "jasmine": null
