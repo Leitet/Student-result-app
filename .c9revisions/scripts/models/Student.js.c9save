@@ -1,0 +1,4 @@
+{"ts":1360237585930,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1360237665004,"patch":[[{"diffs":[[1,"define([], function() {\r\n \r\n        return Backbone.Model.extend({\r\n            \r\n            name : function() { return this.get('name'); }\r\n\r\n\t    });   \r\n    }\r\n);\r\n \r\n \r\n"]],"start1":0,"start2":0,"length1":0,"length2":174}]],"length":174,"saved":false}
+{"ts":1360237767917,"patch":[[{"diffs":[[1," /*\r\n    StudentView\r\n */\r\n\r\n"],[0,"define(["]],"start1":0,"start2":0,"length1":8,"length2":37}]],"length":203,"saved":false}
+{"ts":1360237844403,"patch":[[{"diffs":[[0,"ine("],[-1,"[], "],[0,"func"]],"start1":32,"start2":32,"length1":12,"length2":8}]],"length":199,"saved":false}

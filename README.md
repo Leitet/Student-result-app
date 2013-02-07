@@ -1,6 +1,6 @@
 Studentresultatapplikation
 ==========================
 
-Detta är ett mallrepositorium för projektet i [RIA-kursen 2013](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/). Forka detta och använd som grund i din applikation!
+Denna applikation utvecklas som ett projekt i [RIA-kursen 2013](https://coursepress.lnu.se/kurs/ria-utveckling-med-javascript/).
 
-Mallen innehåller inga övriga filer alls, utan är bara ett sätt för kursledningen att enkelt hålla koll på er. :)
+Applikationen kommer att fungera som enkel rapporteringstjänst för studenters resultat vid laborationer. Delar så som inloggning etc. kommer att uteslutas. Fokus ligger på kodorganisering och applikationsarkitektur.

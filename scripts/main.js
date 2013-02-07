@@ -1,17 +1,5 @@
-require(["views/StudentView"], function(StudentView) {
-    //This function is called when scripts/app.js is loaded.
-    //If app.js calls define(), then this function is not fired until
-    //util's dependencies have loaded, and the util argument will hold
-    //the module value for "helper/util".
-    
-    
-     
-    var Student = Backbone.Model.extend({
-		name : function() { return this.get('name'); }
-
-	});
-    
-   
+require(["views/Student", "models/Student"], function(StudentView, StudentModel) {
+  
 
     var Router = Backbone.Router.extend({
         routes: {
@@ -34,7 +22,7 @@ require(["views/StudentView"], function(StudentView) {
     app.navigate("students", {trigger:true});
     app.navigate("students/tstjo", {trigger:true});
 
-    var myStudent = new Student();
+    var myStudent = new StudentModel();
 
 
     new StudentView({model: myStudent});
