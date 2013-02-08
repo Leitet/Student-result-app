@@ -2,13 +2,14 @@ require.config({
         paths: {
             "jquery":           "lib/jquery/jquery",
             "underscore":       "lib/underscore-amd/underscore",
-            "backbone":         "lib/backbone-amd/backbone",
+            "backbone_pure":    "lib/backbone-amd/backbone",
+            "backbone":         "lib/Backbone",
             "localstorage":     "lib/backbone.localStorage/backbone.localStorage",
             "text":             "lib/text/text"
         }
     });
 
-require(['backbone', 'underscore', 'views/StudentView', 'models/StudentModel'], function(Backbone, _ , StudentView, StudentModel) {
+require(['backbone','views/StudentView', 'models/StudentModel'], function(Backbone, StudentView, StudentModel) {
 
 
     var Router = Backbone.Router.extend({
