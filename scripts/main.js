@@ -8,7 +8,7 @@ require.config({
         }
     });
 
-require(['backbone', 'underscore', 'views/Student', 'models/Student'], function(Backbone, _ , StudentView, StudentModel) {
+require(['backbone', 'underscore', 'views/StudentView', 'models/StudentModel'], function(Backbone, _ , StudentView, StudentModel) {
 
 
     var Router = Backbone.Router.extend({
@@ -27,7 +27,7 @@ require(['backbone', 'underscore', 'views/Student', 'models/Student'], function(
 
     var app = new Router();
     
-    Backbone.history.start()
+    Backbone.history.start();
  
     app.navigate("students", {trigger:true});
     app.navigate("students/tstjo", {trigger:true});
@@ -35,7 +35,7 @@ require(['backbone', 'underscore', 'views/Student', 'models/Student'], function(
     var myStudent = new StudentModel();
 
 
-    new StudentView({model: myStudent});
+    new StudentView({model: myStudent, el: $("#app-container") });
 
     myStudent.set({'name': "test"});
     

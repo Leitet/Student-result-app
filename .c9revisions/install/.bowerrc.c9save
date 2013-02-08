@@ -1,0 +1,7 @@
+{"ts":1360242725586,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1360242808546,"patch":[[{"diffs":[[1,"{\n    \"directory\": \"scripts/lib\"\n}"]],"start1":0,"start2":0,"length1":0,"length2":34}]],"length":34,"saved":false}
+{"ts":1360242860364,"patch":[[{"diffs":[[0,"tory\": \""],[1,"student-result-app/"],[0,"scripts/"]],"start1":12,"start2":12,"length1":16,"length2":35}]],"length":53,"saved":false}
+{"ts":1360242983065,"patch":[[{"diffs":[[0,"\": \""],[-1,"student-result-app/"],[0,"scri"]],"start1":16,"start2":16,"length1":27,"length2":8}]],"length":34,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1360312984140,"patch":[[{"diffs":[[0,"ectory\":"],[1,"   "],[0," \"script"]],"start1":10,"start2":10,"length1":16,"length2":19},{"diffs":[[0,"pts/lib\""],[1,",\n    \"json\":         \"component.json\"\n"],[0,"\n}"]],"start1":27,"start2":27,"length1":10,"length2":49}]],"length":76,"saved":false}
+{"ts":1360313096491,"patch":[[{"diffs":[[0,"       \""],[1,"./"],[0,"componen"]],"start1":50,"start2":50,"length1":16,"length2":18}]],"length":78,"saved":false}
+{"ts":1360313131635,"patch":[[{"diffs":[[0,"      \"."],[1,"./.."],[0,"/compone"]],"start1":51,"start2":51,"length1":16,"length2":20}]],"length":82,"saved":false}
