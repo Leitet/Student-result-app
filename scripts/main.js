@@ -1,11 +1,21 @@
 require.config({
         paths: {
-            "jquery":           "lib/jquery/jquery",
-            "underscore":       "lib/underscore-amd/underscore",
-            "backbone_pure":    "lib/backbone-amd/backbone",
-            "backbone":         "lib/Backbone",
-            "localstorage":     "lib/backbone.localStorage/backbone.localStorage",
-            "text":             "lib/text/text"
+            "jquery":                   "lib/jquery/jquery",
+            "underscore":               "lib/underscore/underscore",
+            "backbone":                 "lib/backbone/backbone",
+            "backbone.localStorage":    "lib/backbone.localStorage/backbone.localStorage",
+            "text":                     "lib/text/text"
+        },
+        shim: {
+            'backbone': {
+                deps: ['underscore', 'jquery'],
+                exports: 'Backbone'
+            },
+            'underscore': {
+                exports: '_'
+            },
+            'backbone.localStorage': ['backbone']
+            
         }
     });
 
